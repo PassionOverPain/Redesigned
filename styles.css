@@ -59,9 +59,7 @@ section,
 }
 
 .t-shadow {
-  text-shadow:
-    0 0 1px var(--tertiary-color),
-    0 0 3px var(--primary-color);
+  text-shadow: 0 0 1px var(--tertiary-color), 0 0 3px var(--primary-color);
 }
 
 main {
@@ -137,9 +135,7 @@ section {
 .hero .hero-content .btns a:hover {
   background-color: var(--tertiary-color);
 
-  box-shadow:
-    0 0 5px var(--tertiary-color),
-    0 0 15px var(--tertiary-color);
+  box-shadow: 0 0 5px var(--tertiary-color), 0 0 15px var(--tertiary-color);
   color: var(--secondary-color);
 }
 
@@ -269,9 +265,7 @@ section {
 
 .services .card:hover,
 .projects .projects-div .project:hover {
-  box-shadow:
-    0 0 5px var(--tertiary-color),
-    0 0 15px var(--tertiary-color);
+  box-shadow: 0 0 5px var(--tertiary-color), 0 0 15px var(--tertiary-color);
 }
 
 .services .card .card-content {
@@ -373,9 +367,7 @@ section {
 .projects .btns a:hover {
   background-color: var(--tertiary-color);
 
-  box-shadow:
-    0 0 5px var(--tertiary-color),
-    0 0 15px var(--tertiary-color);
+  box-shadow: 0 0 5px var(--tertiary-color), 0 0 15px var(--tertiary-color);
   color: var(--secondary-color);
 }
 
@@ -402,16 +394,14 @@ header {
   margin: 0;
   position: fixed;
   left: 85%;
-  top: 10%;
+  top: 0%;
   width: 20px;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   z-index: 10000;
-  transition:
-    left 0.5s,
-    top 0.5s;
+  transition: left 0.5s, top 0.5s;
 }
 
 .menu li {
@@ -440,7 +430,7 @@ header {
 
 .menu.active {
   left: 35%;
-  top: 30%;
+  top: 10%;
 }
 
 .menu.active li a {
@@ -455,10 +445,7 @@ header {
   border-radius: 2px;
   background-color: var(--tertiary-color);
   transform: rotate(calc(var(--i) * 90deg)) translate(0, 25px);
-  transition:
-    height 0.5s,
-    width 0.5s,
-    transform 0.5s;
+  transition: height 0.5s, width 0.5s, transform 0.5s;
 }
 
 .menu.active li a::before {
@@ -469,18 +456,13 @@ header {
   background: #000713;
   z-index: -1;
   transform: rotate(calc(var(--i) * 90deg)) translate(0px, 0px);
-  transition:
-    transform 0.5s,
-    height 0.5s,
-    width 0.5s;
+  transition: transform 0.5s, height 0.5s, width 0.5s;
 }
 
 .menu.active li:hover a::before {
   background: var(--tertiary-color);
   color: #000713;
-  box-shadow:
-    0 0 10px var(--tertiary-color),
-    0 0 30px var(--tertiary-color),
+  box-shadow: 0 0 10px var(--tertiary-color), 0 0 30px var(--tertiary-color),
     0 0 50px var(--tertiary-color);
 }
 
@@ -508,6 +490,7 @@ header {
 
 .menuToggle {
   position: absolute;
+  left: 0%;
   width: 60px;
   height: 60px;
   color: #fff;
